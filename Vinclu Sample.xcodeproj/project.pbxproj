@@ -22,6 +22,8 @@
 		E1492ACF18C7A66300EC6D03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1492ACD18C7A66300EC6D03 /* InfoPlist.strings */; };
 		E1492AD118C7A66300EC6D03 /* Vinclu_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1492AD018C7A66300EC6D03 /* Vinclu_SampleTests.m */; };
 		E1492ADB18C7A6D900EC6D03 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1492ADA18C7A6D900EC6D03 /* AudioToolbox.framework */; };
+		E18E656B18CA2A5A00CE5373 /* TT2VincluLed.m in Sources */ = {isa = PBXBuildFile; fileRef = E18E656A18CA2A5A00CE5373 /* TT2VincluLed.m */; };
+		E18E656E18CA2EB300CE5373 /* TT2VincluLedSoundInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E18E656D18CA2EB300CE5373 /* TT2VincluLedSoundInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		E1492ACE18C7A66300EC6D03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1492AD018C7A66300EC6D03 /* Vinclu_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vinclu_SampleTests.m; sourceTree = "<group>"; };
 		E1492ADA18C7A6D900EC6D03 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E18E656918CA2A5A00CE5373 /* TT2VincluLed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TT2VincluLed.h; sourceTree = "<group>"; };
+		E18E656A18CA2A5A00CE5373 /* TT2VincluLed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TT2VincluLed.m; sourceTree = "<group>"; };
+		E18E656C18CA2EB300CE5373 /* TT2VincluLedSoundInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TT2VincluLedSoundInfo.h; sourceTree = "<group>"; };
+		E18E656D18CA2EB300CE5373 /* TT2VincluLedSoundInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TT2VincluLedSoundInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,10 @@
 				E1492ABB18C7A66300EC6D03 /* ViewController.m */,
 				E1492ABD18C7A66300EC6D03 /* Images.xcassets */,
 				E1492AAC18C7A66300EC6D03 /* Supporting Files */,
+				E18E656918CA2A5A00CE5373 /* TT2VincluLed.h */,
+				E18E656A18CA2A5A00CE5373 /* TT2VincluLed.m */,
+				E18E656C18CA2EB300CE5373 /* TT2VincluLedSoundInfo.h */,
+				E18E656D18CA2EB300CE5373 /* TT2VincluLedSoundInfo.m */,
 			);
 			path = "Vinclu Sample";
 			sourceTree = "<group>";
@@ -254,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1492ABC18C7A66300EC6D03 /* ViewController.m in Sources */,
+				E18E656E18CA2EB300CE5373 /* TT2VincluLedSoundInfo.m in Sources */,
+				E18E656B18CA2A5A00CE5373 /* TT2VincluLed.m in Sources */,
 				E1492AB618C7A66300EC6D03 /* AppDelegate.m in Sources */,
 				E1492AB218C7A66300EC6D03 /* main.m in Sources */,
 			);
@@ -464,6 +476,7 @@
 				E1492AD618C7A66300EC6D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1492AD718C7A66300EC6D03 /* Build configuration list for PBXNativeTarget "Vinclu SampleTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +485,7 @@
 				E1492AD918C7A66300EC6D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
