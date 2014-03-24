@@ -1,4 +1,8 @@
-Vinclu-sample-for-iOS
+Vinclu sample for iOS
 =====================
 
-Vinclu sample for iOS
+iPhone用のVincluのサンプルです。
+
+実行時にはボリュームを最大にしておいてください。
+上げたボリュームは忘れずに戻しておきましょう。
+
